@@ -1,0 +1,22 @@
+{
+  "name": "bitqiu/group-avatar",
+  "homepage": "https://github.com/bitqiu/group-avatar",
+  "license": "MIT",
+  "description": "Generate group avatar",
+  "authors": [
+    {
+      "name": "Bit Qiu",
+      "homepage": "https://github.com/bitqiu"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "ext-gd": "*",
+    "ext-fileinfo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "BitQiu\\GroupAvatar\\": "src/"
+    }
+  }
+}
